@@ -22,3 +22,6 @@ header h2{
 img{
     float: left;
 }
+p.clear {
+    clear: left;
+}
