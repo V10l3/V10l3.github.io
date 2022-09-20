@@ -1,7 +1,17 @@
+html{
+    background-image: linear-gradient(to bottom, white 0%, #facd8a, 100%);
+}
 body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 10px;
+    width: 1000px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+    
 }
 a:focus, a:hover{
     font-style:italic;
@@ -21,18 +31,37 @@ header h2{
 }
 img{
     float: left;
+    margin-left: 3em 2em 1.5em;
 }
 main {
     clear: left;
 }
 main h3 {
     font-size: 105%;
+    margin: 3em 2em 1.5em;
+    border: 5px double blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
 }
 main nav {
     font-size: 105%;
+    margin: 1.5em 2em 1.5em;
+    border: 5px dashed blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 0.5em;
 }
 #list {
     line-height: 1.5em;
+}
+main div.Contact {
+    margin: 1.5em 2em 0em 2em;
+    border: 5px dotted blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
+    padding: 1em;
+
 }
 footer p.copyright{
     text-align: center;
