@@ -31,7 +31,7 @@ header h2{
 }
 img{
     float: left;
-    margin-left: 6em 6em 5em;
+    margin: 6em 6em 5em;
 }
 main {
     clear: left;
