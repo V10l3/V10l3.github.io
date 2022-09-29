@@ -11,7 +11,6 @@ body{
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    
 }
 a:focus, a:hover{
     font-style:italic;
@@ -44,4 +43,7 @@ article {
 }
 article h3 {
     column-span: all;
+}
+article img {
+    
 }
