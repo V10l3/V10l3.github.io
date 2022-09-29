@@ -1,5 +1,5 @@
 html{
-    background-image: linear-gradient(to right, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to left, white 0%, #facd8a 100%);
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -32,5 +32,13 @@ header h2{
 }
 header img{
     float: left;
-    margin: 3.5em 3.5em 0em 2.5em;
+    margin-left: 2em;
+}
+article {
+    width: 70%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
 }
