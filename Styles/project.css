@@ -36,6 +36,7 @@ header img{
     margin-left: 2em;
 }
 article {
+    clear: left;
     width: 70%;
     float: left;
     column-count: 2;
@@ -62,6 +63,7 @@ aside {
     float: right;
     padding: 0.1em 1em, 1em;
     background-color: #ffebc6;
+    padding: 1em;
 }
 footer {
     clear: both;
@@ -78,4 +80,5 @@ p.fixed {
     right: 0;
     border: 3px solid darkgreen;
     background-color: lightgreen;
+    padding: 0;
 }
