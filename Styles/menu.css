@@ -21,3 +21,8 @@
 #nav_menu ul li a.current { 
     color: yellow;
 }
+article p::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    font-style: italic;
+}
