@@ -35,12 +35,13 @@ article img {
     margin-bottom: 1em;
 }
 aside {
+    width: auto;
     position: fixed;
-    width: 20%;
-    float: right;
-    padding: 0.1em 1em, 1em;
-    background-color: lightblue;
-    padding: 1em;
+    bottom: 35%;
+    right: 0;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
+    padding: 0;
 }
 footer p.copyright{
     text-align: center;
