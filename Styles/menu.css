@@ -64,7 +64,12 @@ aside {
     background-color: lightgreen;
     padding: 0;
 }
+footer{
+    clear: left;
+    border-top: 2px solid blue;
+}
 footer p.copyright{
+    clear: left;
     text-align: center;
     font-size: 80%;
 }
