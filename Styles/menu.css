@@ -1,5 +1,5 @@
 html{
-    background-image: linear-gradient(to left, white 0%, blue 100%);
+    background-image: linear-gradient(to left, white 0%, lightblue 100%);
 }
 #nav_menu ul { 
     list-style-type: none; 
@@ -28,6 +28,11 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
+}
+article img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 aside {
     position: fixed;
