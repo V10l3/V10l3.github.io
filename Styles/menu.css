@@ -4,10 +4,10 @@ html{
 body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%;
+    width: 95%;
     height: 90%;
     background-color: white;
-    margin: 100px auto;
+    margin: 15px auto;
     padding: 15px 1.5em;
     border: 1px solid black;
     border-radius: 25px;
@@ -41,7 +41,7 @@ header{
 }
 article {
     clear: left;
-    width: 70%;
+    width: 75%;
     float: left;
     column-count: 3;
     column-rule: 2px dotted maroon;
@@ -58,8 +58,8 @@ article img {
     margin-right: 1em;
     margin-bottom: 1em;
 }
-aside {
-    width: auto;
+aside.fixed{
+    width: 20%;
     position: fixed;
     bottom: 35%;
     right: 0;
