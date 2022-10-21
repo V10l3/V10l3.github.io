@@ -68,10 +68,10 @@ aside.fixed{
     background-color: lightgreen;
     padding: 0;
 }
-aside_menu ol li a{
+#aside_menu ol li a{
     list-style-type: upper-roman;
 }
-aside_menu ul li a{
+#aside_menu ul li a{
     list-style-type: square;
 }
 footer{
