@@ -13,6 +13,9 @@ body{
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 }
+header{
+    border-bottom: 2px blue;
+}
 #nav_menu ul { 
     list-style-type: none; 
 }
