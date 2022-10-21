@@ -68,6 +68,9 @@ aside.fixed{
     background-color: lightgreen;
     padding: 0;
 }
+aside ul{
+    list-style-type: upper-roman;
+}
 footer{
     clear: left;
     border-top: 2px solid blue;
