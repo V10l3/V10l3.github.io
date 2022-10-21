@@ -69,11 +69,9 @@ aside.fixed{
     padding: 0;
 }
 aside ul{
-    text-align: center;
     list-style-type: upper-roman;
 }
 aside ol{
-    text-align: center;
     list-style-type: square;
 }
 footer{
