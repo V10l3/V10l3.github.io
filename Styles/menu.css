@@ -71,6 +71,9 @@ aside.fixed{
 aside ul{
     list-style-type: upper-roman;
 }
+aside ol{
+    list-style-type: square;
+}
 footer{
     clear: left;
     border-top: 2px solid blue;
