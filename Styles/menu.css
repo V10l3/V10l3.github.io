@@ -40,6 +40,7 @@ header{
     color: yellow;
 }
 article {
+    border-top: 2px blue;
     clear: left;
     width: 75%;
     float: left;
@@ -66,6 +67,12 @@ aside.fixed{
     border: 3px solid darkgreen;
     background-color: lightgreen;
     padding: 0;
+}
+aside_menu ol li a{
+    list-style-type: upper-roman;
+}
+aside_menu ul li a{
+    list-style-type: square;
 }
 footer{
     clear: left;
