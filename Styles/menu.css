@@ -60,7 +60,6 @@ article img {
     margin-bottom: 1em;
 }
 aside.fixed{
-    text-align: center;
     width: 20%;
     position: fixed;
     bottom: 35%;
@@ -70,9 +69,11 @@ aside.fixed{
     padding: 0;
 }
 aside ul{
+    text-align: center;
     list-style-type: upper-roman;
 }
 aside ol{
+    text-align: center;
     list-style-type: square;
 }
 footer{
