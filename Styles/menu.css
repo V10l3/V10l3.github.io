@@ -60,6 +60,7 @@ article img {
     margin-bottom: 1em;
 }
 aside.fixed{
+    text-align: center;
     width: 20%;
     position: fixed;
     bottom: 35%;
