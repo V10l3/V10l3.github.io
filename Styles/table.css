@@ -51,6 +51,9 @@ html, body {
         border-top: 2px solid orangered;
         
     }
+    table.third tbody {
+        border-bottom: 2px solid orangered;
+    }
     @media only screen and (max-width: 425px) {
         th, td {
             display: block;
