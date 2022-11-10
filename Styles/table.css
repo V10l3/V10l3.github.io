@@ -40,13 +40,13 @@ html, body {
     }
     table.third th {
         background-color: lightgreen;
-        border-top: 2px orangered;
+        border-top: 2px solid orangered;
 
     }
     table.third th, table.third td {
         padding: 0.7em;  
         vertical-align: top;
-        border-top: 2px orangered;
+        border-top: 2px solid orangered;
     }
     table.third thead tr:first-child { 
         border-top: 2px solid orangered;
