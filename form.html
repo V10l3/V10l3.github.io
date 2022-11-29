@@ -46,8 +46,47 @@
                 title="Must be 999-999-999 format"
                 autocomplete="on"><br>
         </fieldset>
-            
+        <fieldset>
+            <legend>Membership Information</legend>
+            <form action="/action_page.php">
+                <label for="cars">Membership Type:</label>
+                <select id="membership_type" name="membership">
+                  <option value="Junior">Junior</option>
+                  <option value="Regular">Regular</option>
+                  <option value="Charter">Charter</option>
+              </form><br>
+              <br>
+              <label></label><br>
+              <label>Starting Date:</label>
+            <label for="starting_date">Starting Date:</label>
+            <input type="date" id="date" required> <br>
+            <label for="tickets_for_guest">Tickets for Guest:</label>
+            <input type="number" name="tickets_for_guest" id="tickets_for_guest" min="1" max="4" vaule="2">
+                <br>
         </fieldset>
+        <fieldset>
+            <legend>How Did You Hear About Us?</legend>
+            <form action="/action_page.php">
+                <input type="checkbox" id="Option1" name="Option1" value="Search_engine">
+                <label for="Option1"> Search engine</label><br>
+                <input type="checkbox" id="Option2" name="Option2" value="Social_meida">
+                <label for="Option2"> Social media</label><br>
+                <input type="checkbox" id="Option3" name="Option3" value="Email">
+                <label for="Option3"> Email</label><br>
+                <input type="checkbox" id="Option4" name="Option4" value="Friend_or_colleague">
+                <label for="Option4"> Friend or colleague</label>
+              </form> 
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <textarea id="textarea" rows="10" cols="60">If you have any comments, please enter them here.</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Submit Your Membership</legend>
+            <input type="submit" vaule="Submit">
+            <input type="reset" value="Reset">
+            <br>
+        </fieldset>    
     </form>
 </body>
 </html>
